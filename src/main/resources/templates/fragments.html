@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head th:fragment="head">
+
+    <!-- Bootstrap stylesheets and script -->
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+    <link th:href="@{/css/techjobs.css}" rel="stylesheet" />
+    <script type="text/javascript" th:src="@{/js/bootstrap.js}"></script>
+
+    <title th:text="'TechJobs' + ${title == null ? '' : ' :: ' + title}">TechJobs</title>
+</head>
+
+<body>
+
+<div th:fragment="page-header" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a th:href="@{/}" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a th:href="@{/list}">List</a></li>
+                <li><a th:href="@{/search}">Search</a></li>
+                <li><a th:href="@{/add}">Add Jobs</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<nav th:fragment="my-page-header" class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">You Too Can!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                 <li class="nav-item"><a href="services.html" class="nav-link">I Want to Help</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">I Need Help</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Log In</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+</body>
+</html>
