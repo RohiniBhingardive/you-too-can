@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+
 public class HomeController {
 
     @RequestMapping("")
@@ -13,6 +14,13 @@ public class HomeController {
 
 
         return "index";
+    }
+
+    @RequestMapping("wanttohelp")
+    public String wantToHelpPage(Model model) {
+
+
+        return "wanttohelp";
     }
 
 }

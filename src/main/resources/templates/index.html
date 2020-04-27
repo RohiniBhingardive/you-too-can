@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org/">
 <head>
-    <title>Snipp - Free Bootstrap 4 Template by Colorlib</title>
+    <title>YOU TOO CAN!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -44,6 +44,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="bg-light">
     <section class="ftco-section-featured ftco-animate">
@@ -154,68 +155,68 @@
                 </div>
 
             </div>
+
+
+            &lt;!&ndash;
+
             <div class="row mt-5 d-flex justify-content-center">
                 <div class="col-md-8 text-center heading-section ftco-animate">
                     <h2 class="h1">UI/UX, visual, <strong class="px-3">Web designer</strong> with more than 12 years of experience in designing websites and mobile apps.</h2>
                     <p><a href="#" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p>
                 </div>
             </div>
+
+            &ndash;&gt;
+
         </div>
     </section>
 </div>
 
 
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-6 text-center heading-section ftco-animate">
-                <span class="subheading">Our Services</span>
-                <h2 class="mb-4">Web &amp; Mobile app design, bring your ideas to life</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-lightbulb-o"></span></div></div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Strategy</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-laptop"></span></div></div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Design</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Development</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                <div class="media block-6 services d-block text-center">
-                    <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
-                    <div class="media-body p-2 mt-3">
-                        <h3 class="heading">Help &amp; Supports</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                    </div>
+
+<section class="ftco-section">
+    <div class="container" align="center">
+        <!-- Rohini: My search widget code here -->
+
+        <div style="border: 2px solid black;width: 600px;padding:50px">
+
+            <h2 class="ftco-heading-2">Search to Help Someone!</h2>
+
+            <form method="post" style="max-width:600px;">
+                <div>
+                    <label th:for="name">Zip Code</label>
+        <!--            <input class="form-control" th:field="${skill.name}" />-->
+
+                    <input type="text" class="" placeholder="Enter Zip Code">
+
+        <!--            <span th:errors="${skill.name}" class="error"></span>-->
                 </div>
-            </div>
+
+                <div class="form-group">
+                    <label th:for="description">Catagory</label>
+
+                    <select id="category">
+                        <option value="pet care">Pet Care</option>
+                        <option value="hunger">Hunger</option>
+                        <option value="drive">Drive</option>
+                        <option value="handyman services">Handyman Services</option>
+                    </select>
+
+        <!--            <span th:errors="${skill.description}" class="error"></span>-->
+                </div>
+
+                <input type="submit" value="Submit" />
+            </form>
+
         </div>
+
+
     </div>
 </section>
 
+
+<!--
 <section class="ftco-section-parallax">
     <div class="parallax-img d-flex align-items-center">
         <div class="container">
@@ -238,6 +239,10 @@
         </div>
     </div>
 </section>
+
+-->
+
+<!--
 
 <section class="ftco-section">
     <div class="container">
@@ -467,13 +472,15 @@
     </div>
 </section>
 
+-->
+
 <footer class="ftco-footer ftco-bg-dark ftco-section">
     <div class="container">
         <div class="row mb-5">
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Snipp.</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <h2 class="ftco-heading-2">YOU CAN TOO!</h2>
+                    <p>There is nothing more beautiful than someone who goes out of their way to make life beautiful for others.</p>
                 </div>
             </div>
             <div class="col-md">
@@ -481,9 +488,8 @@
                     <h2 class="ftco-heading-2">Quick Links</h2>
                     <ul class="list-unstyled">
                         <li><a href="#" class="py-2 d-block">Home</a></li>
-                        <li><a href="#" class="py-2 d-block">Case studies</a></li>
-                        <li><a href="#" class="py-2 d-block">Services</a></li>
-                        <li><a href="#" class="py-2 d-block">Portfolio</a></li>
+                        <li><a href="#" class="py-2 d-block">Want to Help</a></li>
+                        <li><a href="#" class="py-2 d-block">Need Help</a></li>
                         <li><a href="#" class="py-2 d-block">About</a></li>
                         <li><a href="#" class="py-2 d-block">Contact</a></li>
                     </ul>
@@ -493,10 +499,10 @@
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">Contact Information</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="py-2 d-block">198 West 21th Street, Suite 721 New York NY 10016</a></li>
-                        <li><a href="#" class="py-2 d-block">+ 1235 2355 98</a></li>
-                        <li><a href="#" class="py-2 d-block">info@yoursite.com</a></li>
-                        <li><a href="#" class="py-2 d-block">email@email.com</a></li>
+                        <li><a href="#" class="py-2 d-block">123 xyz St., Kansas City, KS 66210</a></li>
+                        <li><a href="#" class="py-2 d-block">+ 1234 5678 90</a></li>
+                        <li><a href="#" class="py-2 d-block">info@youtoocan.com</a></li>
+                        <li><a href="#" class="py-2 d-block">email@youtoocan.com</a></li>
                     </ul>
                 </div>
             </div>
