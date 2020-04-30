@@ -23,4 +23,25 @@ public class HomeController {
         return "wanttohelp";
     }
 
+    @RequestMapping("needhelp")
+    public String needhelpPage(Model model) {
+
+
+        return "needhelp";
+    }
+
+    @RequestMapping("about")
+    public String aboutPage(Model model) {
+
+
+        return "about";
+    }
+
+    @RequestMapping("contact")
+    public String contactPage(Model model) {
+
+
+        return "contact";
+    }
+
 }
