@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3312a8-c777-4e3d-9e5b-1fe32baefe02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/hand 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+    <list default="true" id="9f3312a8-c777-4e3d-9e5b-1fe32baefe02" name="Default Changelist" comment="Google Authentication done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HelpTopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopicData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpTopicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -15,19 +20,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/launchcode/youtoocan/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/launchcode/youtoocan/controllers/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/needhelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/needhelp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/wanttohelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/wanttohelp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/needhelp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/needhelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/needhelp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wanttohelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wanttohelp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/needhelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createhelptopic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +84,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Thymeleaf" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -99,6 +104,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/helptopics" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="you-too-can [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -177,19 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1588211659620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Google Authentication done">
+      <created>1588630900454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588630900454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="landing page added!" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Google Authentication done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google Authentication done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="319" y="36" key="CommitChangelistDialog2" timestamp="1588211659136">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1589248294652">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="319" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1588211659136" />
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1589248294652" />
+    <state x="319" y="36" key="CommitChangelistDialog2" timestamp="1589418567316">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="319" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1589418567316" />
     <state x="466" y="317" key="Github.ShareDialog" timestamp="1587765736090">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -198,38 +221,46 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="456" y="147" key="Github.UntrackedFilesDialog/0.23.1440.822@0.23.1440.822" timestamp="1587765747021" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1588630794093">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1589595453136">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1588630794093" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1588630794092">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1589505959482" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589595453136" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669557" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1589595453132">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1588630794092" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1588630794092">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1589505959480" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589595453132" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669555" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1589595453131">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1588630794092" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1588630794093">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1589505959479" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589595453131" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669555" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1589595453135">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1588630794093" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1589505959481" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589595453135" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669556" />
     <state x="221" y="73" key="SettingsEditor" timestamp="1587763114184">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="221" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1587763114184" />
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1588211740026">
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1588630995584">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1588211740026" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1588630995584" />
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1588208465095">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1588208465095" />
-    <state x="503" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587873079521">
+    <state x="503" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588630914128">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="503" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1587873079521" />
+    <state x="503" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1588630914128" />
     <state x="97" y="56" key="new project wizard" timestamp="1587767566222">
       <screen x="0" y="23" width="1440" height="822" />
     </state>

@@ -8,6 +8,10 @@
 <body>
 
 <div th:replace="fragments :: my-page-header"></div>
+<span th:text="${username}"></span>
+<div th:if="${#authorization.expression('isAuthenticated()')}">
+    <h1 th:inline="text">Hello, <span th:text="${#authentication.name}"></span>!</h1>
+</div>
 <!-- END nav -->
 
 <!-- <div class="js-fullheight"> -->

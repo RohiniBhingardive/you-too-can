@@ -41,10 +41,13 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
                  <li class="nav-item"><a href="/wanttohelp" class="nav-link">Want to Help</a></li>
-                <li class="nav-item"><a href="/needhelp" class="nav-link">Need Help</a></li>
+                <li class="nav-item"><a href="/createhelptopic" class="nav-link">Need Help</a></li>
                 <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Log In</span></a></li>
+
+                <li th:if="${username==null}" class="nav-item cta"><a href="contact.html" class="nav-link"><span>Log In</span></a></li>
+
+                <li th:if="${username!=null && !username.equalsIgnoreCase('anonymous')}" align="center"><img th:src="${userpic}" alt="Avatar" style="border-radius: 80%; width: 50px; height:50px;"></img><br/><!--<span th:text="${'Hello ' + username + '!'}">--></span></li>
             </ul>
         </div>
     </div>
