@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3312a8-c777-4e3d-9e5b-1fe32baefe02" name="Default Changelist" comment="Google Authentication done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HelpTopicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopicData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpTopicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpUserRepository.java" afterDir="false" />
+    <list default="true" id="9f3312a8-c777-4e3d-9e5b-1fe32baefe02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addcategory.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
@@ -17,21 +10,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/launchcode/youtoocan/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/launchcode/youtoocan/controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/needhelp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HelpTopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HelpTopicController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/needhelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createhelptopic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopicData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpTopicData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/HelpUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/youtoocan/models/data/HelpUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createhelptopic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createhelptopic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Thymeleaf" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Thymeleaf" />
       </list>
     </option>
   </component>
@@ -195,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588630900454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Google Authentication done">
+      <created>1589598186300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589598186300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Google Authentication done">
+      <created>1589598285495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589598285495</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,11 +216,11 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1589248294652" />
-    <state x="319" y="36" key="CommitChangelistDialog2" timestamp="1589598184328">
+    <state x="319" y="36" key="CommitChangelistDialog2" timestamp="1589598284057">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="319" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1589418567316" />
-    <state x="319" y="36" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1589598184328" />
+    <state x="319" y="36" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1589598284057" />
     <state x="466" y="317" key="Github.ShareDialog" timestamp="1587765736090">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -222,39 +229,39 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="456" y="147" key="Github.UntrackedFilesDialog/0.23.1440.822@0.23.1440.822" timestamp="1587765747021" />
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1589598238851">
+    <state width="1398" height="163" key="GridCell.Tab.0.bottom" timestamp="1589780415612">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1589505959482" />
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589598238851" />
+    <state width="1398" height="163" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589780415612" />
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669557" />
-    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1589598238849">
+    <state width="1398" height="163" key="GridCell.Tab.0.center" timestamp="1589780415610">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1589505959480" />
-    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589598238849" />
+    <state width="1398" height="163" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589780415610" />
     <state width="1398" height="190" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669555" />
-    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1589598238849">
+    <state width="1398" height="163" key="GridCell.Tab.0.left" timestamp="1589780415609">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1589505959479" />
-    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589598238849" />
+    <state width="1398" height="163" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589780415609" />
     <state width="1398" height="190" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669555" />
-    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1589598238850">
+    <state width="1398" height="163" key="GridCell.Tab.0.right" timestamp="1589780415611">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1589505959481" />
-    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589598238850" />
+    <state width="1398" height="163" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589780415611" />
     <state width="1398" height="190" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.822@0.23.1440.822" timestamp="1589246669556" />
     <state x="221" y="73" key="SettingsEditor" timestamp="1587763114184">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="221" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1587763114184" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1589598213427">
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1589598298573">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1588630995584" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1589598213427" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1589598298573" />
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1588208465095">
       <screen x="0" y="23" width="1440" height="822" />
     </state>

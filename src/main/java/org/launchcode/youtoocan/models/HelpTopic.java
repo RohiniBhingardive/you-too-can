@@ -1,6 +1,7 @@
 package org.launchcode.youtoocan.models;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
@@ -21,15 +22,16 @@ public class HelpTopic {
 
     private String description;
 
-    @NotBlank(message = "Zip code is required")
-    @Size(min = 6, max = 6, message = "Zip code must be 6 digits")
+    //@NotBlank(message = "Zip code is required")
+    //@Size(min = 5, max = 5, message = "Zip code must be 5 digits")
+    //@NotNull
     private int zipCode;
 
-    @ManyToOne
-    private HelpUser helperUser;
+    @Email
+    private String helperUser;
 
-    @ManyToOne
-    private HelpUser needyUser;
+    @Email
+    private String needyUser;
 
     public int getId() {
 
@@ -68,23 +70,25 @@ public class HelpTopic {
         this.zipCode = zipCode;
     }
 
-    public HelpUser getHelperUser() {
+    public String getHelperUser() {
         return helperUser;
     }
 
-    public void setHelperUser(HelpUser helperUser) {
+    public void setHelperUser(String helperUser)
+    {
+
         this.helperUser = helperUser;
     }
 
-    /*
-    public HelpUser getNeedyUser() {
+
+    public String getNeedyUser() {
         return needyUser;
     }
 
-    public void setNeedyUser(HelpUser needyUser) {
+    public void setNeedyUser(String needyUser) {
         this.needyUser = needyUser;
     }
 
 
-     */
+
 }

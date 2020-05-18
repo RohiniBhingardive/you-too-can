@@ -11,11 +11,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception{
         httpSecurity
+                .csrf().disable()
                 .antMatcher("/**").authorizeRequests()
                 .antMatchers("/","/resources/**","/css/**","/js/**","/images/**","/fonts/**","/scss/**").permitAll()
                 .anyRequest().authenticated()
-                .and()
+                 .and()
                 .oauth2Login();
+
     }
 
     }

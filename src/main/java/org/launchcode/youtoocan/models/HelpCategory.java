@@ -20,7 +20,7 @@ public class HelpCategory {
 
 
     @OneToMany
-    @JoinColumn(name = "helpcategory_id")
+    //@JoinColumn(name = "helpCategory_id")
     private List<HelpTopic> helpTopics = new ArrayList<HelpTopic>();
 
     public HelpCategory(){

@@ -41,30 +41,33 @@
             <form method="post" style="max-width:600px;">
 
                 <div class="form-group">
-                    <label th:for="category">Category</label>
+                    <label th:for="helpCategory">Category</label>
 
-                    <select id="category">
-                        <option value="pet care">Pet Care</option>
-                        <option value="hunger">Hunger</option>
-                        <option value="drive">Drive</option>
-                        <option value="handyman services">Handyman Services</option>
+                    <select name="helpCategoryId">
+                        <option th:each="helpCategory : ${helpCategories}"
+                                th:text="${helpCategory.categoryName}"
+                                th:value="${helpCategory.id}"></option>
+
                     </select>
 
                 </div>
 
                 <div class="form-group">
-                    <label th:for="description">Help Title</label>
-                    <input type="text" class="" placeholder="Enter Help Title">
+                    <label th:for="title">Help Title</label>
+                    <input type="text" class="" placeholder="Enter Help Title" th:field="${helpTopic.title}">
+                    <span th:errors="${helpTopic.title}" class="error"></span>
                 </div>
 
                 <div class="form-group">
                     <label th:for="description">Help Description</label>
-                    <input type="textarea" class="" placeholder="Enter Help Description">
+                    <input type="text" class="" placeholder="Enter Help Description" th:field="${helpTopic.description}">
+                    <span th:errors="${helpTopic.description}" class="error"></span>
                 </div>
 
                 <div>
                     <label th:for="name">Zip Code</label>
-                    <input type="text" class="" placeholder="Enter Zip Code">
+                    <input type="text" class="" placeholder="Enter Zip Code" th:field="${helpTopic.zipCode}">
+                    <span th:errors="${helpTopic.zipCode}" class="error"></span>
                 </div>
 
                 <input type="submit" value="Submit" />
